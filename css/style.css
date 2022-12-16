@@ -1,0 +1,39 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --rad: 18px;
+}
+
+body {
+  background-color: var(--Light-gray);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  border-radius: var(--rad);
+  width: 300px;
+  background-color: var(--White);
+  /* display: flex; */
+  text-align: center;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 16px 30px 0px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: calc(var(--rad)/2);
+}
+
+h2{
+  color: var(--Dark-blue);
+}
+
+p{
+  color: #888;
+}
